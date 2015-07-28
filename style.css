@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.whitespace {
+	height: 2000px;
+}
+
+.header {
+	position: relative;
+	height: 900px;
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: top center;
+	background-attachment: fixed;
+	overflow: hidden;
+}
+
+.earth {
+	width:960px;
+	height: 200px;
+	background-image: url('earth.png');
+	background-repeat: no-repeat;
+	background-position: top right;
+	position: absolute;
+	margin-top: 100px;
+	right: 50%;
+	margin-right: 400px;
+}
+
+.asteroid {
+	width: 960px;
+	height: 222px;
+	background-image: url('asteroid.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	position: absolute;
+	margin-top: -100px;
+	left: 50%;
+	margin-left: 200px;
+}
+
+.logo {
+	height: 100px;
+	width: 100%;
+	background-image: url('logo.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 50%;
+	margin-top: -50px;
+}
+
+.forground {
+	width: 960px;
+	height: 917px;
+	background-image: url('foreground.png');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	position: absolute;
+	left: 50%;
+	margin-left: -300px;
+	top: 50%;
+/*	margin-top: -150px;
+}
